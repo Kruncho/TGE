@@ -1,0 +1,80 @@
+#########
+## RDC ##
+#########
+
+$000
+{
+    name = "Hall";
+    linked = down, up;
+    ObjNeeded = "Clé Grenier 0" : 10;
+    ObjToCatch = none
+    Comments = "Il est moche ton Hall !";
+}
+
+$010
+{
+    name = "Bibliothèque";
+    linked = 00,02;
+    ObjNeeded = none;
+    ObjToCatch = "Clé Grenier 0"
+    Comments = "Y'a trop de bouquins !";
+}
+
+$100
+{
+    name = "Petit salon";
+    linked = 01,03;
+    ObjNeeded = none;
+    ObjToCatch = none
+    Comments = "Trop p'tit !";
+}
+
+$110
+{
+    name = "Grand salon";
+    linked = 02;
+    ObjNeeded = none;
+    ObjToCatch = none
+    Comments = "Trop grand !";
+}
+
+###############
+## 1st floor ##
+###############
+
+$001
+{
+    name = "Grenier 0";
+    linked = 01;
+    ObjNeeded = none;
+    ObjToCatch = none
+    Comments = "Ça sent le fenek la-dedans !";
+}
+
+$011
+{
+    name = "Grenier 1";
+    linked = none;
+    ObjNeeded = none;
+    ObjToCatch = none
+    Comments = "Ça sent le fenek la-dedans !";
+}
+
+$101
+{
+    name = "Grenier 2";
+    linked = none;
+    ObjNeeded = none;
+    ObjToCatch = none
+    Comments = "Ça sent le fenek la-dedans !";
+}
+
+$111
+{
+    name = "Grenier 3";
+    linked = none;
+    ObjNeeded = none;
+    ObjToCatch = none
+    Comments = "Ça sent le fenek la-dedans !";
+}
+

@@ -1,0 +1,14 @@
+$title
+{
+    ####################
+    ## The Sky Castle ##
+    ####################
+}
+
+$begin
+{
+    Bonjour et bienvenu %, maintenant laisse moi te raconter une histoire...
+}
+
+
+
